@@ -1,0 +1,320 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+/* nav */
+.nav{
+    height: 110px;
+    width:100%;
+    position: relative;
+}
+@media screen and(max-width:800px){
+    .body{
+      width: 500px;
+    }
+} 
+.nav_top{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(156, 156, 156);      
+}
+.nav_logo{
+    float: left;
+    margin-left: 120px;
+    height: 70px;
+    line-height: 70px;
+}
+.header{
+    margin-left: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(46, 45, 45);
+    opacity: .8;
+}
+.nav_down{
+    height: 40px;
+    background-color:rgb(46, 45, 45);
+    width: 100%;
+    margin-top: 70px;
+    box-shadow: grey 2px 1px;  
+    opacity: .8;
+}
+ul{
+    list-style: none;
+}
+.nav_menu{
+    margin-left: 20px;
+    position: absolute;
+    margin-left: 430px;
+    
+}
+#menu li{
+    float: left;
+    font-size: 18px;
+    width: 92px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+#menu li:hover{
+    background-color: rgb(94, 92, 92);
+    opacity: 1;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#menu li a{
+    color: rgb(46, 45, 45);
+    opacity: .7;
+    text-decoration-line: none;    
+    font-weight: bold;
+}
+#find_menu{
+    position: absolute;
+    margin-left:-15px;
+}
+#find_menu li{
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+    width: 60px;
+    border-radius: 80%;  
+    cursor: pointer;      
+}
+.nav_r{
+    float: right;
+}
+.search{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 30px;
+    margin-right: 150px;
+    margin-top: 20px;
+    opacity: .5;
+}
+.nav_r img{
+    width: 20px;
+    height: 20px;
+    margin-left: -330px;
+}
+.login{
+    margin-left: 220px;
+    margin-top: -25px;
+}
+.login a{
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+    opacity: .7;
+}
+
+
+/* main */
+
+.main{
+    background-color: rgb(223, 221, 221);
+    height:750px;
+    width: 100%;
+    position: relative;
+}
+.main_show{
+    height: 750px;
+    width: 1000px;
+    background-color: rgb(182, 179, 179);
+    margin: 0 auto;
+    border:1px solid rgb(156, 155, 155);
+}
+.imgs img{
+    width: 25px;
+    height: 25px;
+}
+.imgs li{
+    float: left;
+    margin-left:50px;
+    cursor: pointer;
+}
+#m_list a{
+    color:rgb(49, 48, 48);
+}
+.imgs{
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 150px;;
+}
+
+#mode2{
+    display: none;
+}
+#mode3{
+    display: none;
+}
+
+#show_l > img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+.main_music{
+    position: absolute;
+    width:400px;
+    height: 500px;
+    padding: 0;
+}
+.labell{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.danqu{
+   margin-top: -20px;
+    margin-left:55px;
+    display: block;
+    font-size: 10px;
+    opacity: .8;
+}
+.m_name,.s_name{
+    width: 260px;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: -25px;
+    font-size: 18px;
+}
+
+
+#singer{
+    display: block;
+    margin-left: 55px;
+    margin-top: 30px;
+    opacity: .8;
+}
+.btns{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.btns li{
+    float: left;
+    margin-left: 20px;  
+    color:white;
+}
+.btns button{
+    width: 60px;
+    height: 30px;
+    background-color:grey;
+    border: none;
+    border-radius: 5px;
+    box-shadow:grey 1px 1px;
+    text-align: right;
+    padding-right: 5px;
+    opacity: .5;
+}
+#p_{
+    margin-top: 114px;
+    margin-left: 58px;
+}
+#p_ #p_1{
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: .8;
+}
+#p_ #p_2{
+    width: 0;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(88, 88, 88);
+    opacity: .8;
+    margin-top: -10px;
+}
+
+
+#play{
+    background-color:rgb(46, 45, 45);
+    width: 70px;
+}
+.main_similar{
+    width: 100%;
+    height:500px;
+}
+.main_similar span{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: block; 
+    opacity: .8; 
+}
+.main_similar hr{
+    margin-top: 0;
+}
+
+/*comment*/
+
+.comment span{
+    font-size: 25px;
+    display: block;
+    margin-left: 80px;
+    opacity: .8;
+}
+#comment{
+    padding-right: 400px;
+    padding-bottom: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 3px;
+}
+.submit li{
+    float: left;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.submit li button{
+    margin-left: 347px;
+    width: 50px;
+    border-radius: 3px;
+    box-shadow: slategrey 1px 1px;
+}
+
+
+/*footer*/
+
+.footer{
+    border-top: 1px solid rgb(148, 146, 146);
+    height: 100px;
+    background-color: rgb(223, 221, 221);
+}
+.f_l{
+    margin-left:280px;
+    margin-top: 45px;
+}
+.f_l li{
+    float: left;
+    margin-left: 10px;
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+.f_l li a{
+    color: rgb(95, 100, 105);
+}
+.f_r{
+    float: right;
+    margin-right: 280px;
+}
+.f_r a{
+    list-style:none;
+    color: grey;
+    margin-left: 30px;
+}
+.f_r a:hover{
+    list-style: none;
+    color: rgb(95, 100, 105);
+}
+
